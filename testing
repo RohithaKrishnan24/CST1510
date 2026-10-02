@@ -1,0 +1,11 @@
+
+
+label = input("Enter a label : ")
+part = float(input("Enter a part : "))
+total = float(input("Enter a total : "))
+
+percentage = (part / total) * 100
+
+print(f"{label:<15} : {part:>3} of {total:>3} = {percentage:>5.1f} %")
+
+
