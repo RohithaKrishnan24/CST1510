@@ -1,4 +1,4 @@
-# Week 2 — Decisions and Loops
+# Week 2 — Decisions and Loops 
 
 **Box we build this week:** `PROCESS` — see `../system_diagram.md`
 
