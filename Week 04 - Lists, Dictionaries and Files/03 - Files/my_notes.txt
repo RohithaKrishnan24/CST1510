@@ -1,0 +1,3 @@
+This is CST1510
+I am learning python
+I am learning about files today
