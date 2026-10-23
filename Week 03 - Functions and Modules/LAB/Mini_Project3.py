@@ -14,7 +14,7 @@ Delete these instructions as you replace them with your code.
 
 
 
-def status_of(percent):
+def status_of(percent):                                       # function to understand status based on percentage calculated
     """Return OVER LIMIT, WARNING, OK based on percentage"""
     if percent >= 100:
         return "OVER LIMIT"
@@ -23,8 +23,8 @@ def status_of(percent):
     else:
         return "OK"
 
-def check(value , limit):
-    """Reture differnce and percentage between value and limit"""
+def check(value , limit):                                    # function to perform calculation on given value and limit
+    """Return differnce and percentage between value and limit"""
     difference = value - limit
     percent = (value/limit)*100
     return difference, percent
@@ -34,7 +34,7 @@ label = input("Enter label: ")
 value = float(input("Enter value: "))
 limit = float(input("Enter limit:"))  
 
-difference , percent = check(value, limit) 
+difference , percent = check(value, limit)                    # function calls and processes
 status = status_of(percent)   
 
 print()
