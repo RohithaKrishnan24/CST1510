@@ -28,7 +28,7 @@
 
 ---
 
-## Calculator
+## Calculator     
 
 **Uses:** functions, parameters, `return`, calling one function from another
 

@@ -50,4 +50,4 @@ def print_report(label, value, limit, difference, percent, status):
     print(f"Status:     {status}")
 print_report(label, value, limit, difference, percent, status)
 print("=" * 34)
-
+        

@@ -6,4 +6,4 @@ def check(value, limit):
 
 check(87, 100)
 
-print(status)
+print(87, 100)      
