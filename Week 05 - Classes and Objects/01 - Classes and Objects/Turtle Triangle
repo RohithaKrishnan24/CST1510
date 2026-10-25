@@ -1,0 +1,47 @@
+#from turtle import * 
+#color('blue')
+#forward(200)
+#left(120)
+#forward(200)
+#left(120)
+#forward(200)
+#done()
+
+#from turtle import * 
+#color ('blue' , 'red')
+#begin_fill()
+#left(120)
+#forward(200)
+#left(120)
+#forward(200)
+#end_fill()
+#done()
+
+#import turtle
+#t  = turtle.Turtle() #initialising the turtle
+#r = 100 #radius
+#t.circle(r) #draw circle
+
+#import turtle
+#t  = turtle.Turtle() #initialising the turtle
+#mycolors = ['red' , 'orange' , 'yellow' , 'light green' , 'dark green' , 'light blue' , 'dark blue' , 'violet' , 'purple' , 'brown' , 'black']
+#r = 20
+#n = 10
+#for i in range(n + 1,0,-1):
+#    t.color('black' , mycolors[i%5]) #mycolors[i%5] is random
+#    t.begin_fill()
+#    t.circle(r*i)
+#    t.end_fill()
+
+import turtle 
+sides = int(input("enter sides of shape: "))
+leng = int(input("enter length of shape: "))
+angle = 360/sides
+turtle.color('green' , 'red')
+turtle.begin_fill()
+
+for i in range (sides):
+    turtle.forward(leng)
+    turtle.left(angle)
+    turtle.done
+turtle.end_fill()
