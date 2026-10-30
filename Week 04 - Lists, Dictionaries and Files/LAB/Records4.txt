@@ -1,0 +1,3 @@
+Computer, WARNING
+Laptop, OVER LIMIT
+Phone, OK
