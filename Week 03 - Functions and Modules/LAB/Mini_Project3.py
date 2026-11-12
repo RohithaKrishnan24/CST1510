@@ -22,14 +22,14 @@ def status_of(percent):
 # function to perform calculation on given value and limit
 def check(value , limit):
     """Return differnce and percentage between value and limit"""
-    difference = value - limit
+    difference = limit - value
     percent = (value/limit)*100
     return difference, percent                                # to send both calculated numbers back so that to use again later
 
 # to get initial input from the user
 label = input("Enter label: ") 
 value = float(input("Enter value: "))
-limit = float(input("Enter limit:"))  
+limit = float(input("Enter limit: "))  
 
 # function calls and processes
 difference , percent = check(value, limit)                   # pass the user values to the function to get the difference and percent
@@ -42,7 +42,7 @@ print(f"  RECORD CHECK  -  {label}")
 print("=" * 34)
 
 # to print the final report
-def print_report(value, limit, difference, percent, status):
+def print_report(label, value, limit, difference, percent, status):
     print(f"Used:       {value:>5.2f}")                       # to print the used value entered by the user
     print(f"Total:      {limit:>5.2f}")                       # to print the total entered by the user
     print(f"Free:       {difference:>5.2f}")                  # to print the difference of value and limit enetered by the user
