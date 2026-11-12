@@ -21,7 +21,7 @@ while True:                                          # asks the user for server 
     limit = float(input("Enter total space: "))
 
 # to get the free space available by subtracting value by limit
-    difference = limit = value
+    difference = limit - value
 # to get the percentage of total space currently being used 
     percent = (value/limit) * 100
 
@@ -39,12 +39,12 @@ while True:                                          # asks the user for server 
     print("=" * 40)
     print(f"      Record Check - {label}")
     print("=" * 40)
-    print(f"Total space: {   limit:>14.2f}GB")
+    print(f"Total space:     {limit:>14.2f}GB")
     print(f"Used space:      {value:>14.2f}GB")
     print(f"Free space:      {difference:>14.2f}GB")
     print(f"Used Percentage: {percent:>14.2f}%")
     print("=" * 40)
     
 # to show the final status of the server
-    print(f"      Status:          {status}GB")
+    print(f"      Status: {status}")
     print("=" * 40)
