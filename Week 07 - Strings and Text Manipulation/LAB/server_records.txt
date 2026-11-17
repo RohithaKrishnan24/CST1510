@@ -1,0 +1,10 @@
+srv - 01 , uSed=59     , totAl=94  
+   SRV - 02 ,     UseD=78 , total=90
+sRv - 03 ,     Used=98 ,      ToTAl=98    
+   Srv - 04 , used=99 , totAl=90
+srV - 05 , used=92 , toTal=43
+srv - 06 ,     used=87 , tOtal=48
+   SRV - 07 ,     USED=76 ,   total=98
+sRv - 08   , used=25 , total=26
+Srv - 09   , UsEd=99     , Total=90  
+   srV - 10 , uSed=12 , Total=43   

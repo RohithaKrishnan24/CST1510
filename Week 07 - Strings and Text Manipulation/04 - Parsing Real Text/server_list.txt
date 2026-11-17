@@ -1,0 +1,6 @@
+SRV-039 , used=782 , total=800
+SRV-040 , used=68 , total=50
+SRV-041 , used=82 , total=100
+SRV-042 , used=87 , total=90
+SRV-043 , used=78 , total=80
+SRV-044 , used=548 , total=500
